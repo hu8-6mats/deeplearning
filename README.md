@@ -42,10 +42,17 @@ Trains the network for a specified number of iterations using mini-batches, disp
 ```zsh
 cd neural_network
 python3 train_two_layer_net.py
-Running train_two_layer_net.py initiates training of a neural network using TwoLayerNet.
 ```
+
+Running train_two_layer_net.py initiates training of a neural network using TwoLayerNet.
 
 Displays loss per iteration, evaluates training and test data accuracy periodically.
 
 Final accuracy on the test data is shown, evaluating the network's performance.
 
+![Accuracy](etc/accuracy.png)
+
+|  |  |
+| :--- | :--- |
+| `Left` | (Accuracy for training data) |
+| `Right` | (Accuracy for test data) |
